@@ -9,8 +9,7 @@
 6. [Data Analysis and Visualization](#data-analysis-and-visualization)
 7. [Conclusion](#conclusion)
 8. [Team Members](#team-members)
-9. [License](#license)
-10. [Acknowledgments](#acknowledgments)
+9. [Acknowledgments](#acknowledgments)
 
 ## Introduction
 
@@ -20,10 +19,10 @@ Welcome to our Pizza Sales Analysis Project! This project is part of the Databas
 
 The project is organized into the following directories:
 
-1. **data**: Contains the CSV files with the sales data.
-2. **sql**: Contains the SQL scripts for table creation, data insertion, and query optimization.
-3. **graphs**: Contains the generated graphs and charts using Matplotlib.
-4. **docs**: Documentation and other relevant files.
+1. `data`: Contains the CSV files with the sales data.
+2. `sql`: Contains the SQL scripts for table creation, data insertion, and query optimization.
+3. `graphs`: Contains the generated graphs and charts using Matplotlib.
+4. `docs`: Documentation and other relevant files.
 
 ## Data
 
@@ -45,8 +44,9 @@ To set up the database, follow these steps:
 1. Ensure you have a compatible SQL database management system installed (e.g., MySQL, PostgreSQL, SQLite).
 2. Create a new database for this project.
 3. Execute the SQL scripts in the `sql` directory in the following order:
-   - `01_create_tables.sql`: This script creates the necessary tables for storing pizza, order, and customer data.
-   - `02_insert_data.sql`: This script populates the tables with data from the CSV files.
+   - `01_create_squema.sql`: This script creates the squema to store the tables.
+   - `02_create_tables.sql`: This script creates the necessary tables for storing pizzas, orders, order details and pizza types data in Boyce-Codd Normal Form (BCNF).
+   - `03_insert_data.sql`: This script populates the tables with data from the CSV files.
 
 ## SQL Queries and Optimizations
 
