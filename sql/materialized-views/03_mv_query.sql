@@ -1,0 +1,15 @@
+--Query 3
+CREATE MATERIALIZED VIEW consulta_3 AS
+SELECT pizza_id, COUNT(*) AS cantidad_meses
+FROM (
+    SELECT DISTINCT pizza_id, cantidad, mes
+    FROM (
+        SELECT pizza_id, SUM(quantity) AS cantidad, EXTRACT(MONTH FROM date) AS mes,
+               ROW_NUMBER() OVER (PARTITION BY EXTRACT(MONTH FROM date) ORDER BY SUM(quantity) ASC) AS num
+        FROM order_details
+        JOIN orders ON order_details.order_id = orders.order_id
+        GROUP BY pizza_id, EXTRACT(MONTH FROM date)
+    ) AS subconsulta
+    WHERE num = 1
+) AS pizzas_menos_vendidas
+GROUP BY pizza_id;
