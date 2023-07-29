@@ -43,7 +43,7 @@ To set up the database, follow these steps:
 
 1. Ensure you have a compatible SQL database management system installed (e.g., MySQL, PostgreSQL, SQLite).
 2. Create a new database for this project.
-3. Execute the SQL scripts in the `sql` directory in the following order:
+3. Execute the SQL scripts in the `sql/database-setup` directory in the following order:
    - `01_create_squema.sql`: This script creates the squema to store the tables.
    - `02_create_tables.sql`: This script creates the necessary tables for storing pizzas, orders, order details and pizza types data in Boyce-Codd Normal Form (BCNF).
    - `03_insert_data.sql`: This script populates the tables with data from the CSV files.
@@ -52,10 +52,15 @@ To set up the database, follow these steps:
 
 The `sql` directory also contains several SQL scripts for querying and optimizing the data:
 
-1. `03_basic_queries.sql`: Contains basic SQL queries to retrieve information about pizzas, orders, and customers.
-2. `04_aggregate_queries.sql`: Contains queries that use aggregate functions to calculate statistics such as total sales and average order value.
-3. `05_indexing_optimizations.sql`: Demonstrates the creation of indexes to improve query performance.
-4. `06_query_optimizations.sql`: Includes optimized versions of some previous queries to showcase performance improvements.
+1. `queries`: Contains six SQL queries to retrieve information about pizzas sales.
+   - `01_query.sql`: What are the 3 best-selling types of pizza each month?
+   - `02_query.sql`: What are the pizzas with the greatest benefits?
+   - `03_query.sql`: For how many months was each type of pizza the least sold?
+   - `04_query.sql`: In which month did each type of pizza reach its peak sales?
+   - `05_query.sql`: Does the pizza shop have a month that is its month with the most sales historically?
+   - `06_query.sql`: What is the average number of pizzas sold for each day of the week?
+2. `materialized-views`: Contains queries to create a materialized view for each of the six queries.
+3. `optimization-analysis`: Contains queries to compare the planning time and the execution time of the optimized query and the non-optimized query.
 
 ## Data Analysis and Visualization
 
