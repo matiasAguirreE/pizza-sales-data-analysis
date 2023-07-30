@@ -93,7 +93,7 @@ The analysis reveals that pizza types differ in both sales and profitability. Sa
 ## Team Members
 
 - [Matías Aguirre Erazo](https://github.com/matiasAguirreE)
-- [Vicente Coronado]()
+- [Vicente Coronado](https://github.com/CincoVicenteCoronado)
 - [Fernanda C. Gangas]()
 
 ## Acknowledgments
