@@ -8,5 +8,4 @@ EXPLAIN ANALIZE
         GROUP BY EXTRACT(MONTH FROM date)
     ) AS resumen_meses
     GROUP BY mes
-    ORDER BY total_pizzas_vendidas DESC
-    LIMIT 1;
+    ORDER BY total_pizzas_vendidas DESC;
