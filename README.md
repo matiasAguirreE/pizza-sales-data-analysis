@@ -66,9 +66,29 @@ The `sql` directory also contains several SQL scripts for querying and optimizin
 
 Once we have gathered and processed the data using SQL, we will perform data analysis and visualization using Matplotlib. The `graphs` directory will contain various plots and charts that provide insights into the pizza sales trends, popular pizzas, customer behavior, and more.
 
+### Graphs of each query
+
+1. What are the 3 best-selling types of pizza each month?
+<img src="https://github.com/matiasAguirreE/pizza-sales-data-analysis/blob/main/docs/media/graph-1.jpg?raw=true" alt="Graph of Query 1" width="1000">
+
+2. What are the pizzas with the greatest benefits?
+<img src="https://github.com/matiasAguirreE/pizza-sales-data-analysis/blob/main/docs/media/graph-2.jpg?raw=true" alt="Graph of Query 2" width="1000">
+
+3. For how many months was each type of pizza the least sold?
+<img src="https://github.com/matiasAguirreE/pizza-sales-data-analysis/blob/main/docs/media/graph-3.jpg?raw=true" alt="Graph of Query 3" width="1000">
+
+4. In which month did each type of pizza reach its peak sales?
+<img src="https://github.com/matiasAguirreE/pizza-sales-data-analysis/blob/main/docs/media/graph-4.jpg?raw=true" alt="Graph of Query 4" width="1000">
+
+5. Does the pizza shop have a month that is its month with the most sales historically?
+<img src="https://github.com/matiasAguirreE/pizza-sales-data-analysis/blob/main/docs/media/graph-5.jpg?raw=true" alt="Graph of Query 5" width="1000">
+
+6. What is the average number of pizzas sold for each day of the week?
+<img src="https://github.com/matiasAguirreE/pizza-sales-data-analysis/blob/main/docs/media/graph-6.jpg?raw=true" alt="Graph of Query 6" width="1000">
+
 ## Conclusion
 
-This project aims to provide a comprehensive analysis of the pizza sales data for the fictional pizzeria. By leveraging SQL for data manipulation and optimizations, as well as Matplotlib for data visualization, we hope to gain valuable insights into the business and customer patterns. Feel free to explore the code, data, and results in their respective directories.
+The analysis reveals that pizza types differ in both sales and profitability. Sales and profits exhibit variations throughout the year and weekdays, with certain months and weekdays experiencing higher demand. Some pizzas demonstrate consistent sales, while others display fluctuations, indicating customer preferences. These insights offer valuable guidance for inventory management, marketing strategies, and enhancing overall profitability in the pizza industry.
 
 ## Team Members
 
