@@ -48,6 +48,12 @@ To set up the database, follow these steps:
    - `02_create_tables.sql`: This script creates the necessary tables for storing pizzas, orders, order details and pizza types data in Boyce-Codd Normal Form (BCNF).
    - `03_insert_data.sql`: This script populates the tables with data from the CSV files.
 
+### Entity-Relationship Diagram
+
+<img src="https://github.com/matiasAguirreE/pizza-sales-data-analysis/blob/main/docs/media/entity-relationship-diagram.jpg?raw=true" alt="Entity-Relationship Diagram" width="1000">
+
+You can view the detailed relationships between the tables in the above Entity-Relationship Diagram.
+
 ## SQL Queries and Optimizations
 
 The `sql` directory also contains several SQL scripts for querying and optimizing the data:
