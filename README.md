@@ -57,7 +57,7 @@ The `sql` directory also contains several SQL scripts for querying and optimizin
    - `02_query.sql`: What are the pizzas with the greatest benefits?
    - `03_query.sql`: For how many months was each type of pizza the least sold?
    - `04_query.sql`: In which month did each type of pizza reach its peak sales?
-   - `05_query.sql`: Does the pizza shop have a month that is its month with the most sales historically?
+   - `05_query.sql`: What are the historical monthly sales figures for the pizza shop?
    - `06_query.sql`: What is the average number of pizzas sold for each day of the week?
 2. `materialized-views`: Contains queries to create a materialized view for each of the six queries.
 3. `optimization-analysis`: Contains queries to compare the planning time and the execution time of the optimized query and the non-optimized query.
@@ -80,7 +80,7 @@ Once we have gathered and processed the data using SQL, we will perform data ana
 4. In which month did each type of pizza reach its peak sales?
 <img src="https://github.com/matiasAguirreE/pizza-sales-data-analysis/blob/main/docs/media/graph-4.jpg?raw=true" alt="Graph of Query 4" width="1000">
 
-5. Does the pizza shop have a month that is its month with the most sales historically?
+5. What are the historical monthly sales figures for the pizza shop?
 <img src="https://github.com/matiasAguirreE/pizza-sales-data-analysis/blob/main/docs/media/graph-5.jpg?raw=true" alt="Graph of Query 5" width="1000">
 
 6. What is the average number of pizzas sold for each day of the week?
